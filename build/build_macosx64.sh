@@ -74,7 +74,6 @@ fi
 
 mkdir $BUILD_DIR
 mkdir $BUILD_DIR/lib
-
 echo "copy lib directory"
 cp -R ../lib/* $BUILD_DIR/lib
 
