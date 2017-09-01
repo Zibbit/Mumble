@@ -41,7 +41,7 @@
               "jquery"
             ]
           }
-        },
+       },
         "dependencies": {
           "jquery": "*"
         }
