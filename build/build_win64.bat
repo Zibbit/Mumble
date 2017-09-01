@@ -62,7 +62,6 @@ Exit /b
 call :ColorText 0a "package.json was found"
 echo.
 )
-
 IF EXIST %BUILD_DIR%\package.json (
 del /s /q %BUILD_DIR%\package.json
 call :ColorText 0a "package.json deleted"
