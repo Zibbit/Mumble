@@ -1,9 +1,7 @@
 {
   "name": "mumble",
   "description": "P2P real time communication system for humans and machines",
-  "author": {
-    "name": "T Z Pardi",
-    "email": "tzpardi@mumble.com"
+
   },
   "version": "1.2.0",
   "main": "index.html",
