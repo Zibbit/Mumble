@@ -39,7 +39,6 @@ jspm install github:malsup/blockui -o "{ registry: 'jspm', main: 'jquery.blockUI
 ```
 
 where the command pulls the content from the github:malsup/blockui repository and creates a shim for it.
-
 Reference and a great explanation of the shim based configurations:
 http://bchavez.bitarmory.com/archive/2015/09/10/jspm-amp-third-party-library-shims.aspx
 
