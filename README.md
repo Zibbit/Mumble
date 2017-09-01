@@ -1,6 +1,6 @@
 ## Mumble - decentralized, P2P communication system for humans and Internet of Things devices.
 
-http://mumble.github.io/
+
 
 What is Mumble?
 -----------------
@@ -11,11 +11,10 @@ Mumble comes with video calls, audio calls, text chat, file transfer, screen sha
 
 Mumble is optimized for the Internet-of-Things. Along with complying with open security and communication standards our developers take an active role in the W3C Web of Things Initiative (https://github.com/w3c/web-of-things-framework) and mirror all WoT standards in the Mumble codebase.
 
-Please join our Gitter (https://gitter.im/orgs/mumble/rooms) if you would like to chat! 
 
-For more information, as well as an immediately useable, packaged version of the Mumble software, see http://mumble.github.io/download.
 
-For help using Mumble please visit the documentation: http://mumble.github.io/documentation/
+
+
 
 License
 -------
@@ -27,7 +26,7 @@ information or see http://www.gnu.org/licenses/.
 Building Mumble
 -----------------
 
-If you would like to build Mumble from the source instead of using the prebuilt binaries (found at http://mumble.github.io/download) follow the build workflow described in [BUILD.md](BUILD.md).
+If you would like to build Mumble from the source instead of using the prebuilt binaries  follow the build workflow described in [BUILD.md](BUILD.md).
 
 ---------------
 
@@ -40,11 +39,7 @@ The `master` branch is regularly built and tested, but is not guaranteed to be
 completely stable. [Tags](https://github.com/mumble/mumbleui/tags) are created
 regularly to indicate new official, stable release versions of Mumble Core.
 
-The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-The developer [forum](https://gitter.im/mumble)
-should be used to discuss complicated or controversial changes before working
-on a patch set.
 
 
 Testing
@@ -55,19 +50,9 @@ requests than we can review and test on short notice. Please be patient and help
 other people's pull requests, and remember this is a security-critical project where any mistake might cost people
 lots of money.
 
-### Automated Testing
-
-Developers are strongly encouraged to write unit tests for new code, and to
-submit new unit tests for old code. Unit tests can be compiled and run
-(assuming they weren't disabled in configure) with: `make check`
 
 
-### Manual Quality Assurance (QA) Testing
 
-Changes should be tested by somebody other than the developer who wrote the
-code. This is especially important for large or high-risk changes. It is useful
-to add a test plan to the pull request description if testing the changes is
-not straightforward.
 
 
 
