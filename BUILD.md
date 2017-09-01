@@ -22,7 +22,7 @@ Install Mumble dependencies
 Once the latest NW.js binaries are built (or downloaded) ensure that you also have node installed on your computer (https://nodejs.org/en/), and then clone the mumble repository:  
 
 ```bash
-$ git clone https://github.com/mumble/mumbleui
+$ git clone https://github.com/zibbit/mumble
 $ cd /mumbleui
 ```
 Install the Mumble Node.js dependencies:  
@@ -80,33 +80,14 @@ $ /path/to/nw.exe .
 ```
 (The node-webkit executables you downloaded earlier must be in the /to directory if you run the above command. The package.json file must exist in the Mumble directory).
 
-Run Mumble on MacOS:
 
-To install node-webkit on MacOS drop the downloaded .app file to the applications folder. Then ensure the package.json file exits in the Mumble directory and run this command:
-```bash
-$ /Applications/nwjs.app/Contents/MacOS/nwjs .
-```
 
 Build and create the Mumble executable
 -----------------------------------------
 
 Once you have built or downloaded NW.js, create the Mumble package by running the platform specific build file from the Mumble/build source directory.
 
-Windows 64-bit build:  
-Create a directory inside mumbleui/build directory called "buildtools/win64". Build node-webkit from source or download the latest Windows 64-bit node-webkit binaries from the node-webkit project site, and copy it to the mumbleui/build/buildtools/win64 directory.  
-Execute the build/build_win64.bat file from the windows command line.
 
-Linux 64-bit build:  
-Create a directory inside mumbleui/build directory called "buildtools/linux64". Build node-webkit from source or download the latest Linux 64-bit node-webkit binaries from the node-webkit project site, and copy it to the mumbleui/build/buildtools/linux64 directory.    
-Execute the build/build_linux64.sh file from the Linux terminal.
-
-MacOS 64-bit build:  
-Create a directory inside mumbleui/build directory called "buildtools/macosx64". Build node-webkit from source or download the latest MAC OS X node-webkit binaries from the node-webkit project site, and copy it to the mumbleui/build/buildtools/macosx64 directory.   
-Execute the build/build_macosx64.sh file from the terminal.
 
 Once Mumble is done building it will be zipped and placed in the build directory. 
 
-Build the mumbleseed application
------------------------------------
-
-To help and contribute to the stability of the Mumble network please run the mumbleseed application. More seeds make the network more stable and by having more seeds deployed we can mitigate DDoS attacks and government interventions more effectively.  Also, if you wish to run your own Mumble network you must run your own mumbleseed nodes. mumbleseed is a Node.js application based on the mumblelib library, but without the Chromium/NW.js UI components. To build mumble-seed from source clone the [mumbleseed source](https://github.com/mumble/mumbleseed.git) and follow the instructions of to the readme.
