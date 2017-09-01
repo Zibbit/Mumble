@@ -486,7 +486,7 @@ System.config({
       "indexof": "npm:indexof@0.0.1"
     },
     "npm:webrtc-adapter@2.0.6": {
-      "sdp": "npm:sdp@1.0.1"
+      "sdp":"npm:sdp@1.0.1"
     }
   }
 
