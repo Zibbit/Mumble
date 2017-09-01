@@ -29,7 +29,6 @@ then
 rm -rf $BUILD_DIR/data
 echo "data directory deleted"
 fi
-
 if [ -e "$BUILD_DIR/node_modules" ]; 
 then
 rm -rf $BUILD_DIR/node_modules
